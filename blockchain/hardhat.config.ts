@@ -3,10 +3,10 @@ import '@nomicfoundation/hardhat-toolbox';
 import 'hardhat-multibaas-plugin';
 import path from 'path';
 
-let deployerPrivateKey = '0x0000000000000000000000000000000000000000000000000000000000000000';
+let deployerPrivateKey = '0x2f34c5e922277e34bce28441504e6addd7bd89bc0f8a16db2f197e5d593e6d7e';
 let deploymentEndpoint = '';
 let adminApiKey = '';
-let web3Key = '';
+let web3Key = 'https://base-sepolia.drpc.org';
 let rpcUrl = ''; // Required if web3Key is not provided
 
 if (process.env['HARDHAT_NETWORK']) {

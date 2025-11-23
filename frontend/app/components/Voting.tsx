@@ -92,11 +92,31 @@ const Voting: React.FC<VotingProps> = ({ setTxReceipt }) => {
 
   return (
     <div className="container">
-      <h1 className="title">Cast your vote</h1>
+      <h1 className="title">What is yout prompt ?</h1>
       {!isConnected ? (
         <div className="text-center">Please connect your wallet to vote</div>
       ) : (
         <div className="spinner-parent">
+          <div className="actions-list">
+            <button type="button" className="action-btn">
+              action 1
+            </button>
+            <button type="button" className="action-btn">
+             sjfhsdjfhsdh
+            </button>
+
+
+
+
+            <button type="button" className="action-btn">
+              action 2
+            </button>
+            <button type="button" className="action-btn">
+              action 3
+            </button>
+          </div>
+
+{/*           
           {votesCount.map((voteCount, index) => (
             <VoteButton
               key={index}
@@ -106,7 +126,7 @@ const Voting: React.FC<VotingProps> = ({ setTxReceipt }) => {
               isDisabled={isTxProcessing}
               handleVote={handleVote}
             />
-          ))}
+          ))} */}
           {isTxProcessing && (
             <div className="overlay">
               <div className="spinner"></div>

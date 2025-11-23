@@ -26,7 +26,7 @@ const VoteButton: FC<VoteButtonProps> = ({
       onClick={() => handleVote(index)}
       disabled={isDisabled}
     >
-      Option {index + 1}: {voteCount} votes
+      {/* Option {index + 1}: {voteCount} votes */}
     </button>
   );
 };

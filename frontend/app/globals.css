@@ -50,3 +50,15 @@ body {
 .event-item:last-child {
   @apply border-none;
 }
+
+.actions-list {
+  @apply flex flex-col gap-3 mb-6;
+}
+
+.action-btn {
+  @apply w-full py-3 px-4 text-left bg-gradient-to-r from-blue-50 to-indigo-50 
+         border border-blue-200 rounded-lg text-foreground font-medium
+         transition-all duration-200 hover:shadow-md hover:border-blue-300
+         hover:from-blue-100 hover:to-indigo-100 active:scale-[0.98]
+         focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2;
+}
