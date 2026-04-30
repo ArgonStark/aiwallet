@@ -1,6 +1,5 @@
 # MultiBaas Sample App
 
-https://dl.mydownloadha.info/sub/U1NIRUtBTl8wNjk4NywxNzc3NTg3MDg4fz13q8UHec
 
 The purpose of this project is to demonstrate how to build a frontend-only decentralized application that uses [MultiBaas](https://docs.curvegrid.com/multibaas/) to handle the complexities of interacting with an EVM smart contract.
 
